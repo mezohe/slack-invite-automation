@@ -8,7 +8,6 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Lato', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
 }
 
 
@@ -39,7 +38,6 @@ float: left;
 
 h1{
 font-family: 'Open Sans', sans-serif;
-color: #fff;
 text-align: center;
 font-size: 50px;
 font-weight: 300;
@@ -56,7 +54,6 @@ h2{
 	text-align: center;
 	font-weight: 300;
 	font-size: 20px;
-		color: #ffffff;
 
 }
 
@@ -75,12 +72,10 @@ margin: 0 auto;
 h3{
 font-size: 28px;
 font-weight: 600;
-color: #ffffff;
 }
 
 .information p{
 font-size: 16px;
-color: #ffffff;
 display: block;
 }
 
@@ -91,14 +86,13 @@ display: block;
 }
 
 .field{
-background: url(../images/field.png) repeat;
 width: 448px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
-border: none;
+border-style: solid;
+border-color: #ccc;
 font-style: italic;
 font-family: 'Lato', sans-serif;
 font-size: 16px;
-color: #ffffff;
 float: left;
 padding: 15px ;
 }
@@ -121,9 +115,8 @@ padding: 15px ;
 .submit{
 padding: 3px 10px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
-margin-left: -78px;
+margin-left: -128px;
 margin-top: 12px;
-background: #ffffff;
 border: none;
 float: left;
 font-family: 'Lato', sans-serif;
@@ -134,6 +127,5 @@ cursor: pointer;
 
 
 .submit:hover{
-background: #eeeeee;
 }
 
